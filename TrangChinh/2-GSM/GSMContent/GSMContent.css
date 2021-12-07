@@ -16,20 +16,22 @@
     color: #1085C5;
 }
 
-.News{
-    position: absolute;
-    width: 1541px;
-    height: 543px;
-    left: 347px;
-    top: 700px;
+.TitleSTT{
+    color: #1085C5;
+
 }
 
-.News2{
+.bgTableGSMFix{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+
     position: absolute;
-    width: 1541px;
-    height: 543px;
-    left: 0px;
-    top: 0px;
+    width: 1500px;
+    height: 710px;
+    left: 347px;
+    top: 700px;
 
     /* White */
 

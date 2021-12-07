@@ -151,10 +151,10 @@ const data = [
   },
 ];
 
-export default function GSM() {
+export default function QTC() {
     return (
-      <div className="LocationTable">
-        <Table columns={colums} dataSource={data} pagination={false} className="bgTable"/>
+      <div className="bgTableQTC">
+        <Table columns={colums} dataSource={data} pagination={false} className=""/>
       </div>
     );
 }

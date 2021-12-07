@@ -3,12 +3,9 @@ import Content from '../GSMContent/GSMContent'
 import Header from '../GSMHeader/GSMHeader'
 import Map from '../GSMMap/GSMMap'
 
-import TopBar from '../../TopBar/topbar'
-import SideBar from '../../Sidebar/Sidebar'
-
 import './GSM.css'
 
-export default function GSMHeader() {
+export default function GSM() {
     return (
         <div className="">
             <div className="">

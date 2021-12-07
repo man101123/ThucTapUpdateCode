@@ -23,11 +23,8 @@ import TrangBCTPGD from '../4-BaoCaoTheoPGD/BCTPGDFinal/BCTPGDFinal'
 import TrangBCTATM from '../5-BaoCaoTheoATM/BCATMMain/BCATMMain'
 import TrangQTC from '../6-QuyenTruyCap/QTCFinal/QTCFinal'
 import TrangQLTBGSM from '../7-QuanLyThietBiGSM/QLTBGSMFinal/QLTBGSMFinal'
-
-
-
-
-
+import TrangQLND from '../8-QuanLyNguoiDung/QLNDFinal/QLNDFinal'
+import TrangAuditLog from '../9-AuditLog/ALFinal/ALFinal'
 
 export default function Sidebar() {
     return (
@@ -135,6 +132,8 @@ export default function Sidebar() {
                     <Route path="/BCTATM"  element={ <TrangBCTATM/> }/>
                     <Route path="/QTC"  element={ <TrangQTC/> }/>
                     <Route path="/QLTB-GSM"  element={ <TrangQLTBGSM/> }/>
+                    <Route path="/QLND" element={ <TrangQLND/> }/>
+                    <Route path="/AuditLog" element={ <TrangAuditLog/> }/>
                 </Routes>
             </div>
     )

@@ -11,6 +11,11 @@ import Trangthai6 from './HinhGSM/Trangthai6.png';
 import Thongtin from './HinhGSM/1.png';
 import Reset from './HinhGSM/2.png';
 
+import GSMThongtinATM from '../GSM-ThongtinATM/GSM-ThongtinATMFinal/GSM-ThongtinATMFinal'
+
+import { Link, Routes, Route } from 'react-router-dom';
+
+
 const colums = [
   {
     title:
@@ -104,10 +109,10 @@ const data = [
     <img src={Trangthai3} alt="" className=""/>
     </>,
     Button:
-    <>
+    <Link to="/GSMThongtinATM">
     <img src={Thongtin} alt="" className=""/>
     <img src={Reset} alt="" className=""/>
-    </>,
+    </Link>,
   },
 
   {
@@ -293,8 +298,12 @@ const data = [
 
 export default function GSM() {
     return (
-      <div className="News">
-        <Table columns={colums} dataSource={data} pagination={false} className="News2"/>
+      <div className="bgTableGSMFix">
+        <Table columns={colums} dataSource={data} pagination={false} className=""/>
+
+        <Routes>
+          <Route path="/GSMThongtinATM" element={ <GSMThongtinATM/> } />
+        </Routes>,
       </div>
     );
 }

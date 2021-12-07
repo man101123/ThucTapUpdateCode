@@ -64,9 +64,19 @@
 }
 
 .Test1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+
     position: absolute;
     width: 1541px;
-    height: 822px;
+    height: 798px;
     left: 347px;
     top: 234px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 16px;
 }

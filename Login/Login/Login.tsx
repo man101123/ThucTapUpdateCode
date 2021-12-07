@@ -66,15 +66,15 @@ export default function Login() {
                             <br />
 
                             <Link to="/TrangChinh" className="">
-                                <Button type="primary" htmlType="submit" className="Locationbtn">
+                                <div className="bgbtnDangnhap">
                                     <h4 className="TitlebtnDN">Đăng nhập</h4>
-                                </Button>
-                            </Link>
+                                </div>
+                             </Link>
 
                         </form>
 
                         <Routes>
-                            <Route path="/TrangChinh"  element={ <TrangChinh/> }/>
+                            <Route path="/TrangChinh"/>
                         </Routes>
 
                         <div className="quenmatkhau">
