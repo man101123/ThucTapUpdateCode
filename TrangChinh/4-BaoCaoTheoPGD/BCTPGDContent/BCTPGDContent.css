@@ -1,17 +1,5 @@
 @import '~antd/dist/antd.css';
 
-.bgTableQLCB{
-    position: absolute;
-    width: 1541px;
-    height: 543px;
-    left: 347px;
-    top: 180px;
-    border-radius: 50px 50px 50px 50px;
-    background: #F0F8FF;
-    box-shadow: inset 100px -100px 100px rgba(185, 188, 191, 0.123), inset -100px 100px 100px rgba(255, 255, 255, 0.123);
-    backdrop-filter: blur(600px);
-}
-
 .TitleTableQLCB {
     color: #1085C5;
 }
@@ -42,7 +30,7 @@
 
     position: absolute;
     width: 1541px;
-    height: 798px;
+    height: 880px;
     left: 347px;
     top: 257px;
 

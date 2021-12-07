@@ -233,7 +233,7 @@ const data = [
   },
 ];
 
-export default function GSM() {
+export default function BCTPGD() {
     return (
       <div className="FixBCTPGD1">
         <Table columns={colums} dataSource={data} pagination={false} className=""/>
